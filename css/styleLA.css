@@ -157,6 +157,10 @@ label{
   .whole-thing{
     min-height: calc(100vh - 90px)!important;
   }
+
+  .sidebar-gorazd>*:nth-child(2){
+    margin-bottom: 80px;
+  }
 }
 
 @media only screen and (max-width: 580px){
