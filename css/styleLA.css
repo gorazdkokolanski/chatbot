@@ -155,8 +155,7 @@ label{
   }
 
   .whole-thing{
-    padding-bottom: 85px;
-    min-height: calc(100vh - 290px)!important;
+    min-height: calc(100vh - 90px)!important;
   }
 }
 
