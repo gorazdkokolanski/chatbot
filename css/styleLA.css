@@ -155,8 +155,7 @@ label{
   }
 
   .whole-thing{
-    max-height: calc(100vh - 290px);
-    padding-bottom: 300px;
+    padding-bottom: 80px;
   }
 }
 
