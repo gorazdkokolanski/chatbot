@@ -149,6 +149,11 @@ label{
 /* Gorazd CSS */
 
 @media only screen and (max-width: 768px){
+  body{
+    max-height: calc(100vh - 290px);
+    overflow: hidden;
+  }
+
   .whole-thing{
     max-height: calc(100vh - 290px);
     padding-bottom: 300px;
