@@ -205,11 +205,11 @@ label{
   }
 
   #textmessage{
-    font-size: 12px;
+    font-size: 16px;
   }
 
   #textmessage::placeholder{
-    font-size: 12px;
+    font-size: 16px;
   }
 
   #submit-message{
