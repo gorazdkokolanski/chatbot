@@ -150,7 +150,7 @@ label{
 
 @media only screen and (max-width: 768px){
   .whole-thing{
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 290px);
   }
 }
 
