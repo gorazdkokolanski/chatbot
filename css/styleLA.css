@@ -148,6 +148,12 @@ label{
 
 /* Gorazd CSS */
 
+@media only screen and (max-width: 768px){
+  .whole-thing{
+    padding-bottom: 30px;
+  }
+}
+
 @media only screen and (max-width: 580px){
   .whole-thing{
     width: 100%;
