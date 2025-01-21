@@ -190,8 +190,8 @@ label{
 @media only screen and (max-width: 580px){
 
   .the-header{
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column!important;
+    align-items: flex-start!important;
     gap: 10px;
   }
 
