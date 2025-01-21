@@ -187,7 +187,7 @@ label{
   }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 580px){
 
   .the-header{
     flex-direction: column;
