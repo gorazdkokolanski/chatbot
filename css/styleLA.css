@@ -171,6 +171,7 @@ label{
     padding-right: 0;
     padding-left: 0;
     margin-right: 0;
+    padding-bottom: 1rem!important;
   }
 
   #chat-area{
