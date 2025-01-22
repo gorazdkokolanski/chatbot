@@ -187,6 +187,10 @@
         min-height: 100dvh !important;
       }
 
+      .sidebar-gorazd{
+        max-height: 100dvh;
+      }
+
   }
 
   @media only screen and (max-width: 580px) {
