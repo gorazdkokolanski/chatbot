@@ -179,22 +179,15 @@
 
   @media only screen and (max-width: 768px) {
       body {
-        max-height: calc(100dvh);
+        max-height: 100dvh;
         overflow: hidden;
       }
 
       body .whole-thing {
-        min-height: calc(100dvh) !important;
+        min-height: 100dvh !important;
       }
 
-      body .sidebar-gorazd>*:nth-child(2) {
-        margin-bottom: 105px !important;
-      }
   }
-
-
-
-  @media only screen and (max-width: 768px) {}
 
   @media only screen and (max-width: 580px) {
     .whole-thing {
