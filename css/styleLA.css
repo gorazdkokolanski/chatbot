@@ -177,21 +177,19 @@
 
   /* Gorazd CSS */
 
-  @media only screen and (max-width: 768px) and (hover: none) and (pointer: coarse) {
-    @supports (-webkit-touch-callout: none) {
+  @media only screen and (max-width: 768px) {
       body.safari {
-        max-height: calc(100vh - 290px);
+        max-height: calc(100dvh);
         overflow: hidden;
       }
 
       body.safari .whole-thing {
-        min-height: calc(100vh - 90px) !important;
+        min-height: calc(100dvh) !important;
       }
 
       body.safari .sidebar-gorazd>*:nth-child(2) {
         margin-bottom: 105px !important;
       }
-    }
   }
 
 
