@@ -3313,6 +3313,27 @@
 
     </script>
 
+    <script>
+        function detectBrowser() {
+            const userAgent = navigator.userAgent;
+
+            if (userAgent.includes("Chrome") && !userAgent.includes("Edg")) {
+                document.querySelector("body").classList.add("chrome")
+            } else if (userAgent.includes("Firefox")) {
+                document.querySelector("body").classList.add("firefox")
+            } else if (userAgent.includes("Safari") && !userAgent.includes("Chrome")) {
+                document.querySelector("body").classList.add("safari")
+            } else if (userAgent.includes("Edg")) {
+                document.querySelector("body").classList.add("edge")
+            } else if (userAgent.includes("Trident") || userAgent.includes("MSIE")) {
+                document.querySelector("body").classList.add("explorer")
+            } else {
+                console.log("Browser not recognized");
+            }
+        }
+        detectBrowser();
+    </script>
+
 </body>
 
 </html>
