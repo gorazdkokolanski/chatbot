@@ -177,7 +177,7 @@
 
   /* Gorazd CSS */
 
-  @media only screen and (max-width: 768px) and (hover: none) and (pointer: coarse) {
+  /* @media only screen and (max-width: 768px) and (hover: none) and (pointer: coarse) {
     @supports (-webkit-touch-callout: none) {
       body {
         max-height: calc(100vh - 290px);
@@ -192,7 +192,7 @@
         margin-bottom: 105px !important;
       }
     }
-  }
+  } */
 
 
 
